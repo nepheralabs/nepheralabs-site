@@ -34,17 +34,32 @@
       <div class="container hero-grid">
         <div>
           <span class="eyebrow">Nephera Labs</span>
-          <h1>Support the people behind every opportunity.</h1>
-          <p class="hero-text">Nephera serves job seekers, gig workers, freelancers, contractors, and small businesses with practical tools for resume alignment, income visibility, and smarter day-to-day planning.</p>
+          <h1>Practical tools for modern work.</h1>
+          <p class="hero-text">Nephera Align helps job seekers improve resumes and ATS performance. Nephera Ledger helps gig workers organize earnings and generate professional reports.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#cta">Get Started</a>
+            <a class="button button-primary" href="#waitlist">Join the Beta</a>
             <a class="button button-secondary" href="#products">Explore the platform</a>
           </div>
-          <ul class="hero-metrics">
-            <li><strong>2</strong><span>purpose-built tools</span></li>
-            <li><strong>1</strong><span>clear workflow for growth</span></li>
-            <li><strong>100%</strong><span>focus on practical outcomes</span></li>
-          </ul>
+          <form class="waitlist-form" id="waitlist">
+            <div class="form-row">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-row">
+              <label for="interest">Interest Selection</label>
+              <select id="interest" name="interest">
+                <option>Nephera Align</option>
+                <option>Nephera Ledger</option>
+                <option>Both</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="challenge">Biggest Challenge</label>
+              <textarea id="challenge" name="challenge" rows="4" placeholder="Tell us what you need help with most."></textarea>
+            </div>
+            <button class="button button-primary" type="submit">Join the Beta</button>
+            <p class="waitlist-note">Know someone who could benefit? Share NepheraLabs.com</p>
+          </form>
         </div>
         <div class="hero-visual" id="products">
           <div class="card-grid">
