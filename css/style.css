@@ -489,9 +489,10 @@ h3 {
 
 .footer-badge {
   display: block;
-  height: 28px;
+  height: 95px;
   width: auto;
   max-width: 100%;
+  opacity: 0.8;
 }
 
 .site-footer a {
