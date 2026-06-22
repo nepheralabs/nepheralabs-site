@@ -21,6 +21,9 @@
   --space-7: 4rem;
   --font-base: "Inter", "Segoe UI", Arial, sans-serif;
   --max-width: 1120px;
+  --ledger-purple: #A855F7;
+  --ledger-purple-light: #E9D5FF;
+  --ledger-purple-dark: #6D28D9;
 }
 
 * {
@@ -239,10 +242,49 @@ h3 {
   border: 1px solid var(--border);
 }
 
-.button-ledger {
-  background: #fff;
+.product-title {
+  margin-bottom: 0.35rem;
+}
+
+.product-brand {
   color: var(--text);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.product-brand-light {
+  color: #fff;
+}
+
+.product-highlight {
+  font-weight: inherit;
+}
+
+.align-highlight {
+  color: var(--primary);
+}
+
+.ledger-highlight {
+  color: var(--ledger-purple);
+}
+
+.product-status {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: var(--space-3);
+}
+
+.align-status {
+  color: var(--primary);
+}
+
+.ledger-status {
+  color: var(--ledger-purple-light);
+}
+
+.ledger-button {
+  background: var(--ledger-purple-light);
+  color: var(--ledger-purple-dark);
+  border: 1px solid var(--ledger-purple-light);
 }
 
 .waitlist-form {
