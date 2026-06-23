@@ -100,10 +100,14 @@ button {
   gap: 0.45rem;
 }
 
-.logo-image {
+.logo-svg {
   display: block;
   height: 40px;
   width: auto;
+}
+
+.navbar-logo {
+  color: #22C55E;
 }
 
 .logo-wordmark {
@@ -513,19 +517,18 @@ h3 {
   gap: 0.2rem;
 }
 
-.footer-logo-muted {
+.footer-logo {
   display: block;
   height: 35px;
   width: auto;
-  filter: grayscale(1) brightness(0.85) contrast(0.9);
-  opacity: 0.9;
+  color: #c0c2c3;
 }
 
 .footer-logo-text {
   color: #94A3B8;
-  font-size: 2.5rem;
-  font-weight: 700;
-  line-height: 1.2;
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.3;
 }
 
 .footer-brand-meta {
