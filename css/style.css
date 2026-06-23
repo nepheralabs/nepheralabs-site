@@ -169,6 +169,53 @@ button {
   border-radius: 999px;
 }
 
+.announcement-banner {
+  background: linear-gradient(135deg, #FAF5FF 0%, #F3E8FF 100%);
+  border-bottom: 1px solid #E9D5FF;
+  padding: var(--space-4) 0;
+}
+
+.announcement-content {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.announcement-badge {
+  display: inline-block;
+  background: var(--ledger-purple);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.announcement-message {
+  color: var(--ledger-purple-dark);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 600px;
+}
+
+.announcement-cta {
+  color: var(--ledger-purple);
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.announcement-cta:hover {
+  text-decoration: underline;
+  color: var(--ledger-purple-dark);
+}
+
 .hero-section {
   padding: var(--space-7) 0;
   background:
